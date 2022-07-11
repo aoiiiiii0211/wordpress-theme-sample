@@ -8,6 +8,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+/**
+ * This file is here to avoid the Deprecated Message for sidebar by wp-includes/theme-compat/sidebar.php.
+ */
 ?>
 		<aside class="col-4" role="aside">
 			<div class="pt-2">
@@ -28,7 +31,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</ul>	
 			</div>
 		</aside>
-
-/**
- * This file is here to avoid the Deprecated Message for sidebar by wp-includes/theme-compat/sidebar.php.
- */
